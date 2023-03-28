@@ -1,0 +1,39 @@
+.header {
+    padding: 42px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-logo {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        width: 180px;
+        p {
+            font-size: 42px;
+        }
+    }
+    &-links {
+        display: flex;
+        align-items: center;
+        padding: 18px;
+        li {
+            font-size: 18px;
+            letter-spacing: .9px;
+            cursor: pointer;
+        }
+        li:not(:first-child) {
+            margin-left: 22px;
+
+        }
+    }
+    button {
+        cursor: pointer;
+        background-color: #52FFE0;
+        width: 180px;
+        height: 50px;
+        border-radius: 50px;
+        border: none;
+        font-weight: 800;
+        letter-spacing: .9px;
+    }
+}
