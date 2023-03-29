@@ -1,0 +1,63 @@
+.collections {
+    padding: 26px;
+    background-color: #1D1E22;
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &-list {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        li {
+            cursor: pointer;
+            width: 520px;
+            height: 120px;
+            border-radius: 30px;
+            display: flex;
+            padding: 12px;
+            align-items: center;
+            justify-content: space-between;
+            .info {
+                display: flex;
+                align-items: center;
+                .picture {
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 30px;
+                }
+                .texts {
+                    margin-left: 22px;
+                    h1 {
+                        font-size: 24px;
+                    }
+                    p {
+                        color: #818698;
+                        font-size: 16px;
+                    }
+                }
+            }
+            .pricing {
+                font-size: 16px;
+                .usd {
+                    color: #818698;
+                }
+                .top {
+                    color: #52FFE0;
+                }
+                p:not(:first-child) {
+                    margin-top: 2px;
+                }
+            }
+            margin: 20px;
+        }
+    }
+    button {
+        margin-top: 32px;
+        width: 180px;
+        height: 50px;
+        font-size: 16px;
+    }
+}

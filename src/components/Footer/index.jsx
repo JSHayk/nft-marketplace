@@ -2,7 +2,11 @@ import "./index.scss"
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer className="footer">
+      <div className="wrapper">
+        
+      </div>
+    </footer>
   )
 }
 

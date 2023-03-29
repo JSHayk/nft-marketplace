@@ -1,0 +1,48 @@
+.intro {
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &-info {
+        h1 {
+            font-weight: 600;
+            &:first-child {
+                font-size: 36px;
+            }
+            &:last-child {
+                max-width: 600px;
+                font-size: 72px;
+            }
+        }
+        &-status {
+            margin-top: 18px;
+            .explore {    
+                width: 150px;
+                height: 65px;
+            }
+            .popularity {
+                margin-top: 42px;
+                display: flex;
+                max-width: 400px;
+                justify-content: space-between;
+                padding: 14px;
+                .count {
+                    font-size: 30px;
+                    font-weight: 400;
+                }
+                .type {
+                    text-align: center;
+                    color: #818698;
+                    letter-spacing: .9px;
+                    font-size: 16px;
+                }
+            }
+        }
+
+    }
+    &-picture {
+        padding: 46px;
+        max-width: 770px;
+    }
+}

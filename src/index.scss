@@ -6,17 +6,13 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;                                                
     font-size: 14px;
     font-weight: 400;
     background-color: #101010;
     color: #fff;
 }
 
-#root {
-    max-width: 1400px;
-    margin: auto;
-}
 
 /* Default Styles */
 a {
@@ -29,4 +25,43 @@ li {
 
 img {
     width: 100%;
+}
+
+.green {
+    background-color: #52FFE0;
+}
+.gray {
+    background-color: #2C2D31;
+}
+.black {
+    background-color: #101010;
+}
+.gray-white {
+    background-color: #F8F8F8;
+}
+.green-button {
+    background-color: #52FFE0;
+    border: none;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: .8px;
+    cursor: pointer;
+}
+
+.space {
+    margin-top: 48px;
+}
+.upper {
+    text-transform: uppercase;
+}
+
+.wrapper {
+    max-width: 1480px;
+    margin: auto;
+}
+
+.title {
+    font-size: 30px;
+    text-transform: uppercase;
 }

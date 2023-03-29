@@ -5,19 +5,21 @@ import logoPicture from "../../assets/logo.svg"
 const Header = () => {
   return (
     <header className="header">
-      <div className="header-logo">
-        <img src={logoPicture} alt="logo" />
-        <p>Qeeb</p>
+      <div className="wrapper">
+        <div className="header-logo">
+          <img src={logoPicture} alt="logo" />
+          <p>Qeeb</p>
+        </div>
+        <ul className="header-links">
+            <li>Explore</li>
+            <li>Collections</li>
+            <li>Creators</li>
+            <li>Blog</li>
+        </ul>
+        <button className="connect-wallet green-button">
+          Connect Wallet
+        </button>
       </div>
-      <ul className="header-links">
-          <li>Explore</li>
-          <li>Collections</li>
-          <li>Creators</li>
-          <li>Blog</li>
-      </ul>
-      <button className="connect-wallet">
-        Connect Wallet
-      </button>
     </header>
   )
 }
