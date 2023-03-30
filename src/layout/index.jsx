@@ -16,7 +16,7 @@ const Layout = () => {
             <Collections />
             <Nfts />
             <Download />
-            {/* <Footer /> */}
+            <Footer />
         </>
     )
 }

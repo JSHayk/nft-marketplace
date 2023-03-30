@@ -5,16 +5,6 @@
         justify-content: space-between;
         align-items: center;
     }
-    &-logo {
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        width: 180px;
-        p {
-            margin-left: 12px;
-            font-size: 42px;
-        }
-    }
     &-links {
         display: flex;
         align-items: center;

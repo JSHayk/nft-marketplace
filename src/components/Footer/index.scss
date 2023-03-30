@@ -1,0 +1,81 @@
+.footer {
+    background-color: #1D1E22;
+
+    .wrapper {
+        padding: 82px;
+        &>div:first-child {
+            display: flex;
+            justify-content: space-between;
+            .lists {
+                display: flex;
+                padding: 12px;
+
+                h1 {
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+
+                ul li {
+                    cursor: pointer;
+                    font-size: 14px;
+                    font-weight: 400;
+                    margin-top: 12px;
+                    color: #DFE5F5;
+                }
+
+                div:last-child {
+                    margin-left: 64px;
+                }
+            }
+
+            .newsletter {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 500px;
+                height: 270px;
+                border-radius: 30px;
+                padding: 24px;
+                color: #1D1E22;
+
+                h1 {
+                    font-weight: 600;
+                }
+
+                .info {
+                    margin-top: 24px;
+                    display: flex;
+                    justify-content: space-between;
+                    border-bottom: solid 1px #3FC9B0;
+                    padding-bottom: 12px;
+
+                    p {
+                        letter-spacing: .8px;
+                    }
+
+                    img {
+                        width: 24px;
+                    }
+                }
+            }
+        }
+        &>div:last-child {
+            display: flex;
+            justify-content: space-between;
+            p {
+                color: #DFE5F5;
+                font-size: 16px;
+            }
+            .links {
+                display: flex;
+                img {
+                    width: 24px;
+                    cursor: pointer;
+                    &:not(:first-child) {
+                        margin-left: 12px;
+                    }
+                }
+            }
+        }
+    }
+}

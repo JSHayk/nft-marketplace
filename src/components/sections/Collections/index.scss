@@ -1,13 +1,7 @@
 .collections {
     padding: 26px;
     background-color: #1D1E22;
-    .wrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
     &-list {
-        justify-content: center;
         display: flex;
         align-items: center;
         flex-wrap: wrap;
@@ -54,10 +48,15 @@
             margin: 20px;
         }
     }
-    button {
-        margin-top: 32px;
-        width: 180px;
-        height: 50px;
-        font-size: 16px;
+    .button-container {
+        display: flex;
+        justify-content: center;
+        button {
+            margin-top: 32px;
+            width: 180px;
+            height: 50px;
+            font-size: 16px;
+        }
     }
+   
 }
