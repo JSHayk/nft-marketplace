@@ -9,12 +9,12 @@
         display: flex;
         align-items: center;
         padding: 18px;
-        li {
+        a {
             font-size: 18px;
             letter-spacing: .9px;
             cursor: pointer;
         }
-        li:not(:first-child) {
+        a:not(:first-child) {
             margin-left: 22px;
 
         }
