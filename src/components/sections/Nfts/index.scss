@@ -3,6 +3,7 @@
         padding: 26px;
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
         li {
             cursor: pointer;
             border-radius: 30px;
@@ -12,6 +13,7 @@
             overflow: hidden;
             display: flex;
             flex-direction: column;
+            margin: 20px;
         }
         .info {
             padding: 16px;

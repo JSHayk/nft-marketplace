@@ -32,9 +32,9 @@ const Collections = () => {
             })
           }
         </ul>
-        <div className="button-container">
+        {/* <div className="button-container">
           <button className="green-button">See all collection</button>
-        </div>
+        </div> */}
       </div>
     </section>
   )
