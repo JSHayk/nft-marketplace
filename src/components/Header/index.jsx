@@ -43,9 +43,16 @@ const Header = () => {
                 Categories
             </Link>
         </ul>
-        <button className="connect-wallet green-button">
-          Connect Wallet
-        </button>
+        <Link
+          to="download"
+          activeClass="active-nav"
+          spy={true}
+          smooth={true}
+          offset={-20}
+          duration={500}
+          >
+            <button className="connect-wallet green-button">Connect Wallet</button>
+          </Link>
       </div>
     </header>
   )

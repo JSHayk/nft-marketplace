@@ -1,3 +1,4 @@
+import {Link} from "react-scroll"
 // Assets
 import "./index.scss"
 import manPicture from "../../../assets/man.png"
@@ -13,7 +14,15 @@ const Intro = () => {
             </div>
           <div className="intro-info-status">
             <div>
-              <button className="green-button explore">Explore</button>
+              <Link
+                  to="nfts"
+                  activeClass="active-nav"
+                  spy={true}
+                  smooth={true}
+                  offset={-20}
+                  duration={500}>
+                <button className="green-button explore">Explore</button>
+              </Link>
             </div>
             <div className="popularity">
                 <div>
